@@ -15,5 +15,8 @@
 </head>
 
 <body>
+<div id="container">
+<div id="header">
 <a href="<?php bloginfo('url'); ?> ">
 <?php bloginfo('name'); ?> </a>
+</div>

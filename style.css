@@ -7,3 +7,11 @@ Author: @orvice
 Author URI: https://github.com/orvice/orxxx
 Tags: orx
 */
+#container{
+color:#010101; 
+margin: auto auto;
+width: 985px;
+padding: 5px;
+/*border: 1px solid #CCC;*/
+
+}
