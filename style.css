@@ -13,9 +13,17 @@ margin: auto auto;
 width: 985px;
 padding: 5px;
 /*border: 1px solid #CCC;*/
-
 }
-
+#main{
+height: 500px;
+}
+#content{
+width:600px;
+float: left;
+}
+#sidebar{
+float: left;
+}
 #header{
 background-color: red;
 height: 150px;
