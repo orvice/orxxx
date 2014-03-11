@@ -16,6 +16,12 @@
 
 <body>
 <div id="container">
-<div id="header">
-<h1><a href="<?php bloginfo('url'); ?> "><?php bloginfo('name'); ?> </a></h1>
-</div>
+ <div id="header">
+    <div id="title">
+        <h1><a href="<?php bloginfo('url'); ?> "><?php bloginfo('name'); ?> </a></h1>
+        <?php    bloginfo(’description’); ?>
+    </div>
+    <div id="nav">
+
+    </div>
+ </div>
