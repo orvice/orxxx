@@ -23,6 +23,7 @@ float: left;
 }
 #sidebar{
 float: left;
+background-color: #FAEBD7;
 }
 #header{
 background-color: red;
@@ -32,4 +33,5 @@ height: 150px;
 #footer{
 background-color: #B0C4DE;
 height: 150px;
+text-align: center;
 }
