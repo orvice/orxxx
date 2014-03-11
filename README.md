@@ -1,4 +1,7 @@
-orxxx
+About
 =====
 
 a wordpress theme
+
+License
+=====
