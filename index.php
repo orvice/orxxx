@@ -1,9 +1,8 @@
-
 <?php
 get_header(); ?>
 
 <div id="main">
-    <div id="content">
+     <div id="content">
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
             <div class="post" id="post-<?php the_ID(); ?>">
                 <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
@@ -24,11 +23,12 @@ get_header(); ?>
                 <h2><?php _e('Not Found'); ?></h2>
             </div>
         <?php endif; ?>
-    </div>
-    <div id="sidebar">
+      </div>
+      <div id="sidebar">
         <?php get_sidebar(); ?>
-    </div>
-</div>
+      </div>
+    </div><!-- #content -->
+</div> <!-- #main-->
 
 
 

@@ -1,6 +1,6 @@
 <div id="footer">
     </hr>
-Power by <a href="#">WordPress</a>
+    © <?php echo date("Y"); ?> <a href="<?php bloginfo(url); ?>"><?php bloginfo(name);?></a> Power by <a href="#">WordPress</a> Theme by <a href="http://orvice.org">orvice</a>
 </div><!-- #footer -->
 
 

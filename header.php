@@ -30,6 +30,6 @@
         <?php    bloginfo(’description’); ?>
     </div>
     <div id="nav">
-
+       Nav
     </div>
  </div>
