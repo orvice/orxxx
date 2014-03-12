@@ -1,0 +1,17 @@
+#header{
+    height: 150px;
+}
+
+
+#title{
+
+    height: 100px;
+    width: 960px;
+    margin: auto auto;
+}
+#nav{
+
+    height: 50px;
+    width: 960px;
+    margin: auto auto;
+}
