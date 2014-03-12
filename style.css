@@ -8,14 +8,13 @@ Author URI: https://github.com/orvice/orxxx
 Tags: orx
 */
 #container{
-color:#010101; 
-
+color:#010101;
 }
 
 #main{
-height: 500px;
 width: 980px;
 margin: auto auto;
+clear: both;
 }
 #content{
 width:600px;
@@ -33,6 +32,7 @@ height: 150px;
 #footer{
 background-color: #B0C4DE;
 text-align: center;
+clear: both;
 }
 #title{
     background-color: greenyellow;
