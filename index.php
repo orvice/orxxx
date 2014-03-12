@@ -1,7 +1,7 @@
-<?php
-get_header(); ?>
+<?php get_header();?>
 
-<div id="main">
+
+    <div id="main">
      <div id="content">
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
             <div class="post" id="post-<?php the_ID(); ?>">
@@ -23,13 +23,12 @@ get_header(); ?>
                 <h2><?php _e('Not Found'); ?></h2>
             </div>
         <?php endif; ?>
-      </div>
+
       <div id="sidebar">
         <?php get_sidebar(); ?>
       </div>
     </div><!-- #content -->
 </div> <!-- #main-->
-
 
 
 <?php get_footer(); ?>
