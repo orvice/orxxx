@@ -7,41 +7,48 @@ Author: @orvice
 Author URI: https://github.com/orvice/orxxx
 Tags: orx
 */
+body
+{
+    background-image:url('img/ubuntu.jpp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 #container{
-color:#010101;
+    background-color:#ffffff
+    filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5;
 }
 
 #main{
 width: 980px;
 margin: auto auto;
 clear: both;
+background-color: red;
 }
 #content{
 width:600px;
 float: left;
+
 }
 #sidebar{
 float: left;
 background-color: #FAEBD7;
 }
 #header{
-background-color: red;
 height: 150px;
 }
 
 #footer{
-background-color: #B0C4DE;
 text-align: center;
 clear: both;
 }
 #title{
-    background-color: greenyellow;
+
     height: 100px;
     width: 980px;
     margin: auto auto;
 }
 #nav{
-    background-color: #ff9fcd;
+
     height: 50px;
     width: 980px;
     margin: auto auto;
