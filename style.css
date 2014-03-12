@@ -15,16 +15,17 @@ body
 }
 #container{
     background-color:#ffffff;
-
+    width: 1000px;
     filter:alpha(opacity=50);
     -moz-opacity:0.5;
     -khtml-opacity: 0.5;
     opacity: 0.5;
+    margin: auto auto;
 }
 #main{
 width: 960px;
 margin: auto auto;
-clear: both;
+
 background-color: red;
 }
 #content{

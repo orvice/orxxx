@@ -24,9 +24,9 @@
             </div>
         <?php endif; ?>
      </div><!-- #content -->
-      <div id="sidebar">
+     <div id="sidebar">
         <?php get_sidebar(); ?>
-      </div><!-- #sidebar -->
+     </div><!-- #sidebar -->
 
 </div> <!-- #main-->
 
