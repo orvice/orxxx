@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-    <div id="main">
+ <div id="main">
      <div id="content">
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
             <div class="post" id="post-<?php the_ID(); ?>">
@@ -13,7 +13,7 @@
                         <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?> <?php edit_post_link('Edit', ' &#124; ', ''); ?>
                     </p>
                 </div>
-            </div>
+            </div><!-- #post -->
         <?php endwhile; ?>
             <div class="navigation">
                 <?php posts_nav_link(); ?>
@@ -23,11 +23,11 @@
                 <h2><?php _e('Not Found'); ?></h2>
             </div>
         <?php endif; ?>
-
+     </div><!-- #content -->
       <div id="sidebar">
         <?php get_sidebar(); ?>
-      </div>
-    </div><!-- #content -->
+      </div><!-- #sidebar -->
+
 </div> <!-- #main-->
 
 
