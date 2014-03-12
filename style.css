@@ -9,13 +9,13 @@ Tags: orx
 */
 #container{
 color:#010101; 
-margin: auto auto;
-width: 985px;
-padding: 5px;
-/*border: 1px solid #CCC;*/
+
 }
+
 #main{
 height: 500px;
+width: 980px;
+margin: auto auto;
 }
 #content{
 width:600px;
@@ -32,6 +32,17 @@ height: 150px;
 
 #footer{
 background-color: #B0C4DE;
-height: 150px;
 text-align: center;
+}
+#title{
+    background-color: greenyellow;
+    height: 100px;
+    width: 980px;
+    margin: auto auto;
+}
+#nav{
+    background-color: #ff9fcd;
+    height: 50px;
+    width: 980px;
+    margin: auto auto;
 }
