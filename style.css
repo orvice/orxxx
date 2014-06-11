@@ -9,7 +9,7 @@ Tags: orx
 */
 body
 {
-    background-image:url('img/ubuntu.jpp');
+    /** background-image:url('img/ubuntu.jpp'); **/
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

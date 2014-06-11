@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css" type="text/css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Loading Flat UI -->
+    <link href="<?php echo get_template_directory_uri(); ?>/css/flat-ui.css" rel="stylesheet">
+
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
@@ -25,11 +33,29 @@
 <body>
 <div id="container">
     <div id="header">
-        <div id="title">
-            <h1><a href="<?php bloginfo('url'); ?> "><?php bloginfo('name'); ?> </a></h1>
-            <?php    bloginfo(’description’); ?>
+
+
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+                </div>
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>  <a href='#'>用户:
+
+                            </a></li>
+                        <li><a href="#">退出</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div id="nav">
-            Nav
-        </div>
-    </div> <!-- #header -->
+    </div>   <!-- #header -->
